@@ -16,5 +16,22 @@ into several categories using a CNN-based classifier.
 
 ## Project Structure
 
-<img width="741" height="241" alt="Screenshot 2026-01-17 184737" src="https://github.com/user-attachments/assets/c86b5205-41fa-4e55-bc54-702b4581d7f2" />
+```bash
+task1_image/
+│
+├── classifier/
+│ ├── build_dataset_from_yolo.py
+│ ├── train_cnn.py
+│ ├── train_vit.py
+│ ├── eval_cnn.py
+│ └── eval_vit.py
+│
+├── detection/
+│ ├── train.py
+│ ├── infer_yolo_cnn_image.py
+│ └── infer_yolo_cnn_video.py
+│
+├── .gitignore
+└── README.md
+```
 
