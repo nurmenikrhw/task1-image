@@ -2,14 +2,14 @@ import os
 import cv2
 
 # ==============================
-# PATH CONFIG (SESUAI STRUKTUR KAMU)
+# PATH CONFIG
 # ==============================
 YOLO_IMAGE_DIR = "dataset/train/images"
 YOLO_LABEL_DIR = "dataset/train/labels"
 OUTPUT_DIR = "classifier/dataset"
 
 # ==============================
-# YOLO CLASS NAMES (DARI data.yaml)
+# YOLO CLASS NAMES
 # ==============================
 YOLO_CLASSES = [
     'BAK TERBUKA_DAIHATSU_GRANDMAX', 'BAK TERBUKA_MITSUBISHI_COLT',
@@ -107,7 +107,7 @@ for img_name in os.listdir(YOLO_IMAGE_DIR):
         area_ratio = (box_w * box_h) / img_area
 
         # ==============================
-        # FILTER NOISE (MOTOR / OBJEK KECIL)
+        # FILTER NOISE
         # ==============================
         if area_ratio < 0.05:   # terlalu kecil → buang
             total_skipped += 1

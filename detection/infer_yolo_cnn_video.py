@@ -8,7 +8,7 @@ import torch.nn as nn
 # =========================
 # CONFIG
 # =========================
-VIDEO_PATH = "detection/test/traffic_test.mp4"   # ganti kalau nama beda
+VIDEO_PATH = "detection/test/traffic_test.mp4"  
 OUTPUT_PATH = "detection/output_yolo_cnn.mp4"
 
 YOLO_MODEL_PATH = "detection/runs/car_detection4/weights/best.pt"

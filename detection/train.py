@@ -9,7 +9,7 @@ def main():
     print("=== ENTER MAIN ===")
 
     print(torch.version.cuda)          # versi CUDA yang digunakan PyTorch
-    print(torch.cuda.is_available())   # harus True
+    print(torch.cuda.is_available())   
     print(torch.cuda.get_device_name(0) if torch.cuda.is_available() else "No GPU")
 
     device = "cuda" if torch.cuda.is_available() else "cpu"
@@ -25,7 +25,7 @@ def main():
         batch=16,
         project="runs",
         name="car_detection",
-        device=device  # penting supaya pakai GPU
+        device=device 
     )
 
 if __name__ == "__main__":
