@@ -1,0 +1,26 @@
+# virtual environment
+.venv/
+
+# python cache
+__pycache__/
+*.pyc
+
+# datasets (ALL)
+dataset/
+classifier/dataset/
+
+# model weights
+*.pt
+*.onnx
+
+# training & inference outputs
+runs/
+output/
+results/
+
+# media files
+*.mp4
+*.avi
+*.png
+*.jpg
+*.jpeg
