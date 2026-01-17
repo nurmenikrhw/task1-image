@@ -10,7 +10,7 @@ import os
 # =====================
 # CONFIG
 # =====================
-DATA_DIR = "classifier/dataset"   # karena kamu tidak pakai val split
+DATA_DIR = "classifier/dataset"
 MODEL_PATH = "classifier/weights/vit_car_type.pt"
 CLASS_NAMES = ['Hatchback', 'MPV', 'SUV', 'Sedan', 'Truck']
 BATCH_SIZE = 32

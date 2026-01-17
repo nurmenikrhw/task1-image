@@ -8,7 +8,7 @@ print("=== ULTRALYTICS IMPORTED ===")
 def main():
     print("=== ENTER MAIN ===")
 
-    print(torch.version.cuda)          # versi CUDA yang digunakan PyTorch
+    print(torch.version.cuda)
     print(torch.cuda.is_available())   
     print(torch.cuda.get_device_name(0) if torch.cuda.is_available() else "No GPU")
 
