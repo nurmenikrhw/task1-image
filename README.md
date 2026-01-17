@@ -15,5 +15,6 @@ into several categories using a CNN-based classifier.
 - Classification: CNN (PyTorch)
 
 ## Project Structure
-<img width="3903" height="1202" alt="Picture1" src="https://github.com/user-attachments/assets/4568c72b-adcd-4b03-830c-8296c58d8ae5" />
+
+<img width="741" height="241" alt="Screenshot 2026-01-17 184737" src="https://github.com/user-attachments/assets/c86b5205-41fa-4e55-bc54-702b4581d7f2" />
 
